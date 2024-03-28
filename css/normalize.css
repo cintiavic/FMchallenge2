@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html {
+        font-family: var(--base-font);
+        color:var(--black-color);
+    }
+
+img {
+    width:100%;
+}
