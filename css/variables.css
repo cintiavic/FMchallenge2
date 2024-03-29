@@ -19,6 +19,10 @@
   --font-body-m: 1em;
   --font-body-s: 0.875em;
 
+  --font-mob-heading: 1.275em;
+  --font-mob-body-m: 0.85em;
+  --font-mob-body-s: 0.75em;
+
   /*spacings*/
   --spacing-24: 1.5em;
   --spacing-14: 0.875em;
