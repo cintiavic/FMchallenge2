@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Frontend Mentor | Blog preview card</title>
-</head>
-<body>
-  
-   <main>
-        <article class="card">
-      
-            <picture class="card_picture"><img  class="card_picture-img" src="./img/illustration-article.svg" alt="imagen de la card"></picture>
-         
-            <div class="card_content">
-                <p class="content_category">Learning</p>
-                <p class="content_publishedDate">Published 21 Dec 2023</p>
-                <h1 class="content_title">HTML & CSS foundations</h1>
-                <p class="content_description">These languages are the backbone of every website, defining structure, content and presentation</p>
-            </div>
+  </head>
+  <body>
+    <main class="container">
+      <article class="card">
+        <picture class="card_picture"
+          ><img
+            class="card_picture-img"
+            src="./img/illustration-article.svg"
+            alt="imagen de la card"
+        /></picture>
 
-            <div class="card_author">
-                <picture class="author_avatar"><img class="author_avatar-img" src="./img/image-avatar.webp" alt="author's name"></picture>
-                <p class="author_name">Greg Hopper</p>
-            </div>
-                  
-        </article>
-   </main>
-</body>
+        <div class="card_content">
+          <p class="content_category">Learning</p>
+          <p class="content_publishedDate">Published 21 Dec 2023</p>
+          <h1 class="content_title">HTML & CSS foundations</h1>
+          <p class="content_description">
+            These languages are the backbone of every website, defining
+            structure, content and presentation
+          </p>
+        </div>
+
+        <div class="card_author">
+          <picture class="author_avatar"
+            ><img
+              class="author_avatar-img"
+              src="./img/image-avatar.webp"
+              alt="author's name"
+          /></picture>
+          <p class="author_name">Greg Hopper</p>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>

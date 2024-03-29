@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap");
 
+:root {
+  /*color palette*/
 
-:root{
-    
-    /*color palette*/
+  --black-color: #111111;
+  --pure-white-color: #ffffff;
+  --yellow-color: #f4d04e;
+  --grey-color: #7f7f7f;
 
-    --black-color:#111111;
-    --pure-white-color:#ffffff;
-    --yellow-color: #f4d04e;
-    --grey-color:#7f7f7f;
+  /*typography*/
 
-    /*typography*/
+  --base-font: "Figtree", sans-serif;
 
-    --base-font: "Figtree", sans-serif;
+  /*font-sizes*/
 
-    /*font-sizes*/
+  --font-heading: 1.5em;
+  --font-body-m: 1em;
+  --font-body-s: 0.875em;
 
-    --font-heading: 1.5em;
-    --font-body-m: 1em;
-    --font-body-s:0.875em;
-
-    /*spacings*/
-    --spacing-24: 1.5em;
-    --spacing-12: 0.75em;
-  
+  /*spacings*/
+  --spacing-24: 1.5em;
+  --spacing-14: 0.875em;
+  --spacing-12: 0.75em;
+  --spacing-8: 0.5em;
+  --spacing-4: 0.25em;
 }
